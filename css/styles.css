@@ -727,7 +727,7 @@ ul {
   line-height: 133%;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: var(--iris);
+  color: var(--iris)
 }
 
 .input-placeholder-icon {
