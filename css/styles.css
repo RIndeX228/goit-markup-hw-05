@@ -491,13 +491,19 @@ ul {
 }
 
 
-.footer-form-label {
+.footer-form-paragraph {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--white);
+  margin-bottom: 16px;
+}
+
+.email-input-form {
+ display: flex;
+ gap: 24px;
 }
 
 .footer-form-input {
@@ -522,7 +528,7 @@ ul {
 .footer-form-button {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: var(--iris);
   font-family: var(--font-family);
@@ -536,10 +542,12 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  cursor: pointer;
 }
 
 .footer-form-button-svg {
   fill: var(--white);
+  margin-left: 16px;
 }
 
 .backdrop {
